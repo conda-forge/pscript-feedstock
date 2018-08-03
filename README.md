@@ -19,10 +19,10 @@ All platforms:
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-pscript-green.svg)](https://anaconda.org/conda-forge/pscript)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pscript.svg)](https://anaconda.org/conda-forge/pscript)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/pscript.svg)](https://anaconda.org/conda-forge/pscript)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pscript.svg)](https://anaconda.org/conda-forge/pscript)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pscript-green.svg)](https://anaconda.org/conda-forge/pscript) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pscript.svg)](https://anaconda.org/conda-forge/pscript) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pscript.svg)](https://anaconda.org/conda-forge/pscript) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pscript.svg)](https://anaconda.org/conda-forge/pscript) |
 
 Installing pscript
 ==================
