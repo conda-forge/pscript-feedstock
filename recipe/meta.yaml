@@ -1,6 +1,6 @@
 {% set name = "pscript" %}
-{% set version = "0.7.1" %}
-{% set sha256 = "27641ff27fd60b002a07ba41262085f29d36e4a8d9e8857ae38158137ba062e7" %}
+{% set version = "0.7.3" %}
+{% set sha256 = "90fa4394c05c49137594d07f8f9d318afd56abcf82901e1973004fd6f1770ef8" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   number: 0
 
 requirements:
