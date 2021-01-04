@@ -5,11 +5,13 @@ Home: http://pscript.readthedocs.io
 
 Package license: BSD 2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pscript-feedstock/blob/master/LICENSE.txt)
 
 Summary: library for transpiling Python code to JavaScript.
 
+Development: https://github.com/flexxui/pscript
 
+Documentation: http://pscript.readthedocs.io
 
 Current build status
 ====================

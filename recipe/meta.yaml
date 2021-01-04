@@ -1,6 +1,6 @@
 {% set name = "pscript" %}
-{% set version = "0.7.4" %}
-{% set sha256 = "4cca30461bdcbefcb205a24dfb16ea764f43fc9d7ed06956dc01180cea9fe7ac" %}
+{% set version = "0.7.5" %}
+{% set sha256 = "9217a291477af34833bef1880191467c8dda1bb09052e5f142b46904088e980d" %}
 
 package:
   name: {{ name }}
@@ -17,7 +17,7 @@ build:
   number: 0
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
