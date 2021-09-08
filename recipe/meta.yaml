@@ -1,6 +1,6 @@
 {% set name = "pscript" %}
-{% set version = "0.7.5" %}
-{% set sha256 = "9217a291477af34833bef1880191467c8dda1bb09052e5f142b46904088e980d" %}
+{% set version = "0.7.6" %}
+{% set sha256 = "ef2f50f2508e9bea58540dc5d7307691b169b104156a1c7a1366c1bd1bd69377" %}
 
 package:
   name: {{ name }}
