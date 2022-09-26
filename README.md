@@ -3,7 +3,7 @@ About pscript
 
 Home: http://pscript.readthedocs.io
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pscript-feedstock/blob/main/LICENSE.txt)
 
