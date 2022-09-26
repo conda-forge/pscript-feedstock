@@ -14,14 +14,14 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python
+    - python >=2.7,<3|>=3.5
     - pip
   run:
-    - python
+    - python >=2.7,<3|>=3.5
 
 test:
   imports:
@@ -32,7 +32,7 @@ about:
   doc_url: http://pscript.readthedocs.io
   dev_url: https://github.com/flexxui/pscript
   summary: library for transpiling Python code to JavaScript.
-  license: BSD 2-Clause
+  license: BSD-2-Clause
   license_file: LICENSE
 
 extra:
