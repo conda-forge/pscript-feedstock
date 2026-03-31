@@ -20,6 +20,7 @@ requirements:
   host:
     - python >=2.7,<3|>=3.5
     - pip
+    - flit
   run:
     - python >=2.7,<3|>=3.5
 
