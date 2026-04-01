@@ -1,6 +1,6 @@
 {% set name = "pscript" %}
-{% set version = "0.7.7" %}
-{% set sha256 = "8632f7a4483f235514aadee110edee82eb6d67336bf68744a7b18d76e50442f8" %}
+{% set version = "0.8.1" %}
+{% set sha256 = "d3858bf9b34454af8018c7eab832c2f4aaf54f878d7e40f3131ff6dd634bcdfd" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -20,6 +20,7 @@ requirements:
   host:
     - python >=2.7,<3|>=3.5
     - pip
+    - flit
   run:
     - python >=2.7,<3|>=3.5
 
